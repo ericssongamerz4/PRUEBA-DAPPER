@@ -1,0 +1,6 @@
+@PRUEBA_DAPPER_HostAddress = http://localhost:5208
+
+GET {{PRUEBA_DAPPER_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
