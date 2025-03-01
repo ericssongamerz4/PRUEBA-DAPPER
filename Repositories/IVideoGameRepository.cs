@@ -1,5 +1,10 @@
-﻿namespace PRUEBA_DAPPER.Repositories
+﻿using PRUEBA_DAPPER.Models;
+
+namespace PRUEBA_DAPPER.Repositories
 {
-    public class IVideoGameRepository
+    public interface IVideoGameRepository
+    {
+        Task<List<VideoGame>> GetAllAsync();
+
     }
 }
